@@ -38,16 +38,6 @@
    \addtocounter{framenumber}{\value{framenumberappendix}}
 }
 
-% Add TOC before each section
-\AtBeginSection[]
-{
-\begin{frame}<beamer>
-    \frametitle{Índice de contenidos}
-    \tableofcontents[currentsection]
-\end{frame}
-}
-
-
 % Add a footline, code copied from infolines outer theme
 \setbeamertemplate{footline}
 {
@@ -104,7 +94,7 @@
   \begin{centering}
       \vspace{\stretch{0.25}}%
       \begin{beamercolorbox}[ht=0.075\paperheight,sep=8pt,center]{white}
-        \usebeamerfont{definition}\@authortitle:
+        \usebeamerfont{definition}\@authortitle
       \end{beamercolorbox}
 
       \begin{beamercolorbox}[ht=0.15\paperheight,sep=8pt,center]{white}
