@@ -1,0 +1,15 @@
+# Output files
+*.pdf
+*.dvi
+
+#Include latex imgs
+!xtreme9/imgs/*.pdf
+
+# Latex tmp files
+*.aux
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.log
