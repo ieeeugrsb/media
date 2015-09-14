@@ -13,3 +13,6 @@
 *.synctex.gz
 *.toc
 *.log
+
+# Windows
+Thumbs.db
