@@ -69,6 +69,7 @@
 
 % Define new variables
 \def\authortitle#1{\def\@authortitle{#1}}
+\def\authoremail#1{\def\@authoremail{#1}}
 \def\titlelogo#1{\def\@titlelogo{#1}}
 
 % Title page customized from Beamer2Thesis package. More info:
@@ -107,7 +108,7 @@
       \end{beamercolorbox}
 
       \begin{beamercolorbox}[ht=0.15\paperheight,sep=8pt,center]{white}
-        \usebeamerfont{person}\textbf{\textit{\insertauthor} \\~\\~}
+        \usebeamerfont{person}\textbf{\textit{\insertauthor}} \\~ \@authoremail
       \end{beamercolorbox}
       \vspace{\stretch{1}}%
   \end{centering}
