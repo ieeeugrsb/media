@@ -26,6 +26,7 @@
 \usepackage{pifont}             % For tick symbol
 \usepackage{graphicx}           % For graphics
 \usepackage{epstopdf}			% For EPS graphics in Windows
+\usepackage{multimedia}         % For media
 \usepackage{verbatim}           % For non-parsed text blocks
 \usepackage{listings}           % For blocks of code
 \lstset{language=[Sharp]C,basicstyle=\scriptsize\ttfamily, keywordstyle=\scriptsize\color{blue}\ttfamily}
@@ -54,7 +55,10 @@
 \end{frame}
 
 \begin{frame}
-	
+	\movie[width=\textwidth,
+	       externalviewer]
+	       {\includegraphics[width=\textwidth]{videos/Timelapse.png}}
+	       {videos/Timelapse.mp4}
 \end{frame}
 
 \end{document}
