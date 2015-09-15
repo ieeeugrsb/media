@@ -13,6 +13,7 @@
 *.synctex.gz
 *.toc
 *.log
+*.vrb
 
 # Windows
 Thumbs.db
