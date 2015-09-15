@@ -48,8 +48,8 @@
 \begin{frame}
 \end{frame}
 
-\subsection{Lenguajes}
-\begin{frame}{El lenguaje que quieras}
+\subsection{Lenguajes permitidos}
+\begin{frame}{Elige tu lenguaje}
 \ctable[
     doinside = \footnotesize
 ]{llcl}{
@@ -70,7 +70,7 @@
 }
 \end{frame}
 
-\begin{frame}{El lenguaje que quieras}
+\begin{frame}{Elige tu lenguaje}
 \ctable[
     doinside = \footnotesize
 ]{llcl}{
@@ -91,7 +91,7 @@
 }
 \end{frame}
 
-\begin{frame}{El lenguaje que quieras}
+\begin{frame}{Elige tu lenguaje}
 \ctable[
     doinside = \footnotesize
 ]{llcl}{
@@ -111,8 +111,28 @@
 
 \subsection{Problemas}
 % TODO: Poner imagenes de programas
-\begin{frame}{Emulador}
-
+\begin{frame}{Emulador / Assembly Simulator}
+    \small
+    Assembly Language is a low-level programming language that is specific to a particulars computer
+    architecture. Each command has a specific structure: \texttt{label COMMAND OPERANDS} \\~
+    
+    \begin{columns}
+    \begin{column}{0.50\textwidth}
+        \begin{itemize}
+            \item \texttt{PRINT A1}
+            \item \texttt{MOVE \#N,A1}
+            \item \texttt{MOVE (A1),A2}
+            \item \texttt{ADD A1,A2}
+            \item \texttt{XOR A1,A2}
+            \item \texttt{COMP A1,A2}
+            \item \texttt{BEQ label}
+            \item \ldots
+        \end{itemize}
+    \end{column}
+    \begin{column}{0.50\textwidth}
+        \includegraphics[width=\textwidth]{imgs/q6_result.png}
+    \end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}{Juego de la vida}
