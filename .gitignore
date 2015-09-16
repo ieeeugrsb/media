@@ -1,6 +1,7 @@
 # Output files
 *.pdf
 *.dvi
+xtreme9/flyer/*.png
 
 #Include latex imgs
 !xtreme9/imgs/*.pdf
